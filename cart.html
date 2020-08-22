@@ -263,9 +263,51 @@
               <hr />
             </div>
             <div class="col-12">
-              <h2 class="mb-4">
+              <h2 class="mb-2">
                 Informasi Pembayaran
               </h2>
+            </div>
+          </div>
+          <div class="row" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-4 col-md-2">
+              <div class="product-title">
+                100.000
+              </div>
+              <div class="product-subtile">
+                Pajak Negara
+              </div>
+            </div>
+            <div class="col-4 col-md-3">
+              <div class="product-title">
+                100.000
+              </div>
+              <div class="product-subtile">
+                Pajak Asuransi
+              </div>
+            </div>
+            <div class="col-4 col-md-2">
+              <div class="product-title">
+                100.000
+              </div>
+              <div class="product-subtile">
+                Pengiriman ke Jakarta
+              </div>
+            </div>
+            <div class="col-4 col-md-2">
+              <div class="product-title text-success">
+                400.000
+              </div>
+              <div class="product-subtile">
+                Total
+              </div>
+            </div>
+            <div class="col-8 col-md-3">
+              <a
+                href="/success.html"
+                class="btn btn-success mt-4 px-4 btn-block"
+              >
+                Pembayaran
+              </a>
             </div>
           </div>
         </div>
@@ -290,41 +332,7 @@
     <script>
       AOS.init();
     </script>
-    <script src="vendor/vue/vue.js"></script>
-    <script>
-      let gallery = new Vue({
-        el: "#gallery",
-        mounted() {
-          AOS.init();
-        },
-        data: {
-          activePhoto: 0,
-          photos: [
-            {
-              id: 1,
-              url: "/images/product/product_detail_1.jpg",
-            },
-            {
-              id: 2,
-              url: "/images/product/product_detail_2.jpg",
-            },
-            {
-              id: 3,
-              url: "/images/product/product_detail_3.jpg",
-            },
-            {
-              id: 4,
-              url: "/images/product/product_detail_4.jpg",
-            },
-          ],
-        },
-        methods: {
-          changeActive(id) {
-            this.activePhoto = id;
-          },
-        },
-      });
-    </script>
+    <script src="vendor/vue/vue.js"></script>  
     <script src="/script/navbar-scroll.js"></script>
   </body>
 </html>
